@@ -1,4 +1,4 @@
-# antivpn
+# Anti VPN/Proxy
 Anti VPN/Proxy | Powerd by https://proxycheck.io/
 
 basta incluir e pronto.
