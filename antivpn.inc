@@ -25,6 +25,7 @@ public AntiVPN(playerid, response_code, data[])
 		{
 			format(string, sizeof(string), "{F70000}[ANTI-VPN]: {FFE700}%s(%d) foi {F70000}Kickado {FFFFFF}por Suspeita de {F70000}VPN/Proxy", nome, playerid);
 	    	SendClientMessageToAll(-1, string);
+            printf("[ANTI-VPN]: %s Suspeito de VPN/Proxy.", nome);
 	    	Kick(playerid);
 		}
 	}
